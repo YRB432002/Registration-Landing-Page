@@ -53,7 +53,7 @@ formSignUp.addEventListener('submit' , (e) => {
 		messageS.push('Please Enter Complete Details  ');
 	}
 	else if(passwordSignUp.value.length<6){
-		messageS.push('For Password Atleast 6 Characters Are Required ')
+		messageS.push('For Password Atleast 6 Characters Are Required ');
 
 	}
 	
